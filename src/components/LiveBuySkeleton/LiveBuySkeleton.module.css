@@ -1,0 +1,49 @@
+.card {
+    padding: 2.5rem;
+  }
+  
+  .bnb,
+  .amountToBuy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+  }
+  
+  .line {
+    margin: 0.75rem 0;
+  }
+  
+  .data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .submit {
+    margin-top: 1.5rem;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 480px) {
+    .card {
+      padding: 1rem;
+    }
+  
+    .bnb,
+    .amountToBuy {
+      flex-direction: column;
+    }
+  
+    .line,
+    .data {
+      flex-direction: column;
+    }
+  
+    .submit {
+      margin-top: 1rem;
+    }
+  }
+  
+  
